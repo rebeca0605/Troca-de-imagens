@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-image: url(./img/lírio.jpeg);
+}
+
+body {
+    height: 100dvh;
+    display: grid;
+    place-content: center;
+    transition: 1s;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.container-input input {
+    font-size: 2rem;
+    text-align: center;
+    width: 305px;
+}
+
+.container-button button {
+    padding-block: 8px;
+    width: 150px;
+}
